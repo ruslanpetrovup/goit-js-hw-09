@@ -8,8 +8,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
@@ -89,7 +89,7 @@ button {
 .start-btn:hover:not(:disabled) .btn__text,
 .stop-btn:focus:not(:disabled) .btn__text,
 .stop-btn:hover:not(:disabled) .btn__text {
-  background: -1.7rem -1.7rem / 190% 200% radial-gradient(circle at top left, #eee, #070);
+  background: -1.7rem -1.7rem / 190% 200% radial-gradient(circle at top left, #eee, rgb(2, 0, 119));
 
   box-shadow: 0.21rem 0.21rem 0.4rem 0.15rem rgba(21, 21, 21, 0.5);
   transform: translate(-0.2rem, -0.2rem);
@@ -101,7 +101,7 @@ button {
 .stop-btn:disabled .btn__text {
   background: -2.1rem -2.1rem / 150% 200% radial-gradient(circle at top left, #eee, #777);
 
-  box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem rgba(21, 21, 21, 0.6);
+  box-shadow: 0.1rem 0.1rem 0.2rem 0.1rem rgba(255, 255, 255, 0.6);
   transform: translate(0, 0);
 }
 
