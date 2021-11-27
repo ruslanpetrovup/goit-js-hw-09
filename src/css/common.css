@@ -75,7 +75,7 @@ button {
   padding: 0.4rem 1.4rem;
   word-wrap: break-word;
 
-  background: 0 0 / 150% 170% radial-gradient(circle at top left, #eee, #070);
+  background: 0 0 / 150% 170% radial-gradient(circle at top left, #eee, rgb(99, 0, 119));
   border-radius: 0.5rem;
 
   box-shadow: 0.3rem 0.3rem 0.5rem 0.21rem rgba(33, 33, 33, 0.4);
